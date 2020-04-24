@@ -1,5 +1,7 @@
 # Laravel MySQL to S3 Backup
 
+## This package was rewritten and extra features added, it can be found https://github.com/ayles-software/laravel-mysql-s3-backup
+
 This is a very simple database backup script for Laravel. It takes a `mysqldump` and optionally saves it to [Amazon S3](http://aws.amazon.com/s3/).
 
 This package is very opinionated. Other backup scripts can support other database types or other places besides S3 to store your backup. This does not.
